@@ -1,3 +1,7 @@
 Debug
 JinxCore.sdf
 JinxCore.v12.suo
+JinxCore/Debug
+JinxCore/JinxCore.vcxproj
+JinxCore/JinxCore.vcxproj.filters
+JinxCore/JinxCore.vcxproj.user

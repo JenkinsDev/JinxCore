@@ -1,8 +1,10 @@
-#ifndef __JINX_WINDOW__
-#define __JINX_WINDOW__
+#ifndef __JINX_GRAPHICS_WINDOW_H
+#define __JINX_GRAPHICS_WINDOW_H
 
+#include <iostream>
 #include <GL\glew.h>
 #include <GLFW\glfw3.h>
+#include "../input/input.h"
 
 namespace jinx { namespace graphics {
 

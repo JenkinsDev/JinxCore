@@ -1,7 +1,8 @@
-#ifndef __JINX_INPUT__
-#define __JINX_INPUT__
+#ifndef __JINX_INPUT_INPUT_H
+#define __JINX_INPUT_INPUT_H
 
 #include <GLFW\glfw3.h>
+#include "../utils/logging.h"
 
 namespace jinx { namespace input {
 

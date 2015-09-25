@@ -1,6 +1,4 @@
-#include <iostream>
 #include "window.h"
-#include "../input/input.h"
 
 namespace jinx { namespace graphics {
 

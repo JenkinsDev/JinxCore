@@ -6,7 +6,7 @@
 namespace jinx { namespace input {
 
     using namespace jinx::graphics;
-	using namespace jinx::utils;
+    using namespace jinx::utils;
 
     bool Input::m_Keys[MAX_KEYS];
     bool Input::m_MouseButtons[MAX_BUTTONS];
@@ -27,7 +27,7 @@ namespace jinx { namespace input {
     bool Input::isKeyPressed(unsigned int key) {
         // TODO: LOG THIS!
         if (key >= MAX_KEYS) {
-			Logging::warning("Key is past the boundaries; Key: " + key);
+            Logging::warning("Key is past the boundaries; Key: " + key);
             return false;
         }
 
@@ -36,8 +36,8 @@ namespace jinx { namespace input {
 
     bool Input::isMouseButtonPressed(unsigned int button) {
         // TODO: LOG THIS!
-		if (button >= MAX_BUTTONS) {
-			Logging::warning("Button is past the boundaries; Button: " + button);
+        if (button >= MAX_BUTTONS) {
+            Logging::warning("Button is past the boundaries; Button: " + button);
             return false;
         }
 

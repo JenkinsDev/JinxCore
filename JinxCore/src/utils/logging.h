@@ -6,18 +6,18 @@
 
 namespace jinx { namespace utils {
 
-	class Logging
-	{
-	public:
-		static void init();
-		static void error(const char message[]);
-		static void warning(const char message[]);
-		static void debug(const char message[]);
-		static void info(const char message[]);
-	private:
-		static std::string signature;
-		static void crashHandler(int sig);
-	};
+    class Logging
+    {
+    public:
+        static void init();
+        static void error(const char message[]);
+        static void warning(const char message[]);
+        static void debug(const char message[]);
+        static void info(const char message[]);
+    private:
+        static std::string signature;
+        static void crashHandler(int sig);
+    };
 
 } }
 

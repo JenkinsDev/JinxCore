@@ -7,14 +7,14 @@
 
 namespace jinx { namespace utils {
 
-	std::string getFileContents(std::string fileName);
+    std::string getFileContents(std::string fileName);
 
-	template <typename NumericalType>
-	std::string numToString(NumericalType number) {
-		std::ostringstream s;
-		s << number;
-		return s.str();
-	}
+    template <typename NumericalType>
+    std::string numToString(NumericalType number) {
+        std::ostringstream s;
+        s << number;
+        return s.str();
+    }
 
 } }
 
